@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("click1","clicked on Intent");
                 Intent intent=new Intent(MainActivity.this,Activity2.class);
                 intent.putExtra("SOME_TEXT","Text from main activity");
-                startActivity(intent);
                 startActivityForResult(intent,1);
             }
         });
