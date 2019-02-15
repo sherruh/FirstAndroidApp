@@ -3,4 +3,6 @@
     <string name="text1">Text1</string>
     <string name="text2">Text2</string>
     <string name="text3">Text3</string>
+    <string name="Intent">Intent</string>
+    <string name="hide_intent">Hide_Intent</string>
 </resources>
