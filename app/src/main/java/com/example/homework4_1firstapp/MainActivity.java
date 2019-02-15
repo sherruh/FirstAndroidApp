@@ -1,5 +1,6 @@
 package com.example.homework4_1firstapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("click1","clicked on Intent");
+                Intent intent=new Intent(MainActivity.this,Activity2.class);
+                startActivity(intent);
             }
         });
     }
