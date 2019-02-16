@@ -69,4 +69,9 @@
         android:text="@string/hide_intent"
         android:onClick="onHideClick"/>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEdit"/>
+
 </android.support.v7.widget.LinearLayoutCompat>
